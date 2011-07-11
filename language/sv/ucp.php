@@ -207,6 +207,7 @@ $lang = array_merge($lang, array(
 	'FIELD_INVALID_CHARS_ALPHA_ONLY'	=> 'Fältet “%s” innehåller felaktiga tecken, endast alfanumeriska tecken är tillåtna.',
 	'FIELD_INVALID_CHARS_SPACERS_ONLY'	=> 'Fältet “%s” innehåller felaktiga tecken, endast alfanumeriska tecken, mellanslag och -+_[] är tillåtna.',
 	'FIELD_INVALID_DATE'				=> 'Fältet “%s” innehåller ett felaktigt datum.',
+	'FIELD_INVALID_VALUE'				=> 'Fältet “%s” har ett felaktigt värde.',
 	'FOE_MESSAGE'				=> 'Meddelande från ovän',
 	'FOES_EXPLAIN'				=> 'Ovänner är användare som kommer att ignoreras automatiskt. Inlägg av dessa användare kommer inte att visas helt. Personliga meddelanden från ovänner tillåts fortfarande. Observera att du inte kan ignorera moderatorer eller administratörer.',
 	'FOES_UPDATED'				=> 'Din lista över ovänner uppdaterades.',
