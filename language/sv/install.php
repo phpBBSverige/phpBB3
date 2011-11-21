@@ -1,7 +1,7 @@
 <?php
 /** 
 *
-* install [Swedish] (phpBB 3.0.9)
+* install [Swedish] (phpBB 3.0.10)
 *
 * @package language
 * @version $Id: install.php 36 2011-06-27 08:50:58Z Peetra.mammapappa $
@@ -9,11 +9,11 @@
 * @source file is copyright (c) 2005 phpBB Group, modified and translated by Swedish translation team
 * @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU Public License version 2
 * @author (c) 2006-2008 Jonathan Gulbrandsen, 2008-2011 Petra Brandt
-* @author (c) 2008-2010 Peetra
+* @author (c) 2008-2012 Peetra
 * Translators: Swedish translation team, working at http://www.phpbb-se.com  contact translation team leader at peetra.mammapappa@gmail.com
 *
 * This file is part of the Swedish language package for phpBB 3.0.x.
-* Copyright (c) 2006-2010 Swedish translation team
+* Copyright (c) 2006-2012 Swedish translation team
 *
 * The Swedish language package for phpBB 3.0.x is free software; you can redistribute it and/or
 * modify it under the terms of the GNU General Public License as published by the Free Software
@@ -243,6 +243,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR'					=> 'Installationsfel',
 	'INST_ERR_DB_CONNECT'		=> 'Kunde inte ansluta till databasen, se felmeddelande nedan.',
 	'INST_ERR_DB_FORUM_PATH'	=> 'Databasfilen du angivit finns inom ditt forums katalogträd. Du bör placera denna fil i en plats som inte är tillgänglig från webben.',
+	'INST_ERR_DB_INVALID_PREFIX'=> 'Prefixet du angav är felaktigt. Det bör börja med ett alfanumeriskt tecken och får inte ha andra tecken i sig än bokstäver, nummer och understreck.',
 	'INST_ERR_DB_NO_ERROR'		=> 'Inget felmeddelande gavs.',
 	'INST_ERR_DB_NO_MYSQLI'		=> 'Versionen av MySQL som är installerad på denna maskin är inte kompatibel med “MySQL with MySQLi Extension”-alternativet som du har valt. Försök med “MySQL”-alternativet istället.',
 	'INST_ERR_DB_NO_SQLITE'		=> 'Versionen av SQLite som du har installerad är för gammal, den måste uppgraderas till minst 2.8.2.',
@@ -362,6 +363,7 @@ $lang = array_merge($lang, array(
 
 	'TABLES_MISSING'			=> 'Kunde inte hitta dessa tabeller<br />» <strong>%s</strong>.',
 	'TABLE_PREFIX'				=> 'Prefix för tabeller i databasen',
+'TABLE_PREFIX_EXPLAIN'		=> 'Prefixet bör börja med ett alfanumeriskt tecken och får inte ha andra tecken i sig än bokstäver, nummer och understreck.',
 	'TABLE_PREFIX_SAME'		=> 'Tabellprefixet måste vara samma som mjukvaran du konverterar från använder.<br />» Angivet tabellprefix var %s.',
 	'TESTS_PASSED'				=> 'Testerna lyckades',
 	'TESTS_FAILED'				=> 'Testerna misslyckades',

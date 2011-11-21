@@ -1,18 +1,18 @@
 <?php
 /**
 *
-* acp_board [Swedish] (phpBB 3.0.9)
+* acp_board [Swedish] (phpBB 3.0.10)
 *
 * @package language
 * @version $Id: board.php 36 2011-06-27 08:50:58Z Peetra.mammapappa $
 * @copyright (c) 2006 phpBB Group, modified and translated by Swedish translation team
 * @source file is copyright (c) 2005 phpBB Group, modified and translated by Swedish translation team
 * @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU Public License version 2
-* @author (c) 2006-2008 Jonathan Gulbrandsen, 2008-2011 Petra Brandt, 2008-2010 Peetra
+* @author (c) 2006-2008 Jonathan Gulbrandsen, 2008-2012 Petra Brandt
 * Translators: Swedish translation team, working at http://www.phpbb-se.com Contact team leader at peetra.mammapappa@gmail.com
 *
 * This file is part of the Swedish language package for phpBB 3.0.x.
-* Copyright (c) 2006-2010 Swedish translation team
+* Copyright (c) 2006-2012 Swedish translation team
 *
 * The Swedish language package for phpBB 3.0.x is free software; you can redistribute it and/or
 * modify it under the terms of the GNU General Public License as published by the Free Software
@@ -281,7 +281,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_LIMIT_EXPLAIN'			=> 'Maximalt antal inlägg att visa i flödet.',
 
 	'ACP_FEED_OVERALL'					=> 'Aktivera globalt flöde',
-	'ACP_FEED_OVERALL_EXPLAIN'			=> 'Nya inlägg från hela forumet', //Aktiverar “Alla trådar”-flödet
+	'ACP_FEED_OVERALL_EXPLAIN'			=> 'Nya inlägg från hela forumet', // Aktiverar “Alla trådar”-flödet
 	'ACP_FEED_FORUM'					=> 'Aktiverar flöde per kategori',
 	'ACP_FEED_FORUM_EXPLAIN'			=> 'Nya inlägg i enstaka kategorier.',
 	'ACP_FEED_TOPIC'					=> 'Aktivera flöde per tråd',
@@ -299,7 +299,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'Aktiverar “Alla kategorier”-flödet och listar kategorierna',
 
 	'ACP_FEED_HTTP_AUTH'				=> 'Tillåt HTTP-autentisering',
- 	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'Aktiverar HTTP-autentisering, dettta tillåter användare att ta emot innehåll, som är gömd för gäster genom att lägga till parametern <samp>auth=http</samp>  i URL-flödet. Notera att vissa PHP-inställningar kräver ändringar i filen .htaccess. Instruktioner hittas i den filen.',
+ 	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'Aktiverar HTTP-autentisering, detta tillåter användare att ta emot innehåll, som är gömd för gäster genom att lägga till parametern <samp>auth=http</samp>  i URL-flödet. Notera att vissa PHP-inställningar kräver ändringar i filen .htaccess. Instruktioner hittas i den filen.',
 	'ACP_FEED_ITEM_STATISTICS'			=> 'Inläggsstatistik',
 	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Visar individuell statistik i inläggsflödet. <br />(inläggsförfattare, tid, svar, antal gånger visat)',
 	'ACP_FEED_EXCLUDE_ID'				=> 'Exkludera dessa kategorier',
