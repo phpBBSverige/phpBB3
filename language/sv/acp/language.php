@@ -1,7 +1,7 @@
 <?php
 /** 
 *
-* acp_language [Swedish] (phpBB 3.0.9)
+* acp_language [Swedish] (phpBB 3.0.10)
 *
 * @package language
 * @version $Id: language.php 2 2010-06-24 01:12:10Z tumba25 $
@@ -67,6 +67,8 @@ $lang = array_merge($lang, array(
 	'LANGUAGE_PACK_DELETED'				=> 'Språkpaketet <strong>%s</strong> togs bort. Alla användare som använde detta språk har återställts till forumets standardspråk.',
 	'LANGUAGE_PACK_DETAILS'				=> 'Språkpaketsdetaljer',
 	'LANGUAGE_PACK_INSTALLED'			=> 'Språkpaketet <strong>%s</strong> installerades.',
+	'LANGUAGE_PACK_CPF_UPDATE'			=> 'Det egna profilfältets språksträngar kopierades från standardspråket. Var god ändra dessa strängar efter behov.',
+
 	'LANGUAGE_PACK_ISO'					=> 'ISO',
 	'LANGUAGE_PACK_LOCALNAME'			=> 'Lokalt namn',
 	'LANGUAGE_PACK_NAME'				=> 'Namn',

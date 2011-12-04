@@ -1,7 +1,7 @@
 <?php
 /** 
 *
-* acp_database [Swedish] (phpBB 3.0.9)
+* acp_database [Swedish] (phpBB 3.0.10)
 *
 * @package language
 * @version $Id: database.php 2 2010-06-24 01:12:10Z tumba25 $
@@ -77,6 +77,8 @@ $lang = array_merge($lang, array(
 	'RESTORE_FAILURE'		=> 'Säkerhetskopian kan vara korrupt.',
 	'RESTORE_OPTIONS'		=> 'Återställningsalternativ',
 	'RESTORE_SUCCESS'		=> 'Databasen återställdes.<br /><br />Ditt forum bör nu vara återställt till det skick som det var i innan säkerhetskopieringen gjordes.',
+	'RESTORE_SELECTED_BACKUP'	=> 'Är du säker på att du vill återställa vald backup?',
+
 
  	'SELECT_ALL'			=> 'Välj alla',
 	'SELECT_FILE'			=> 'Välj en fil',

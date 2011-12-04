@@ -8,11 +8,11 @@
 * @copyright (c) 2006 phpBB Group, modified and translated by Swedish translation team
 * @source file is copyright (c) 2005 phpBB Group, modified and translated by Swedish translation team
 * @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU Public License version 2
-* @author (c) 2006-2008 Jonathan Gulbrandsen, 2008-2012 Petra Brandt
+* @author (c) 2006-2008 Jonathan Gulbrandsen, 2008-2011 Petra Brandt, 2008-2010 Peetra
 * Translators: Swedish translation team, working at http://www.phpbb-se.com Contact team leader at peetra.mammapappa@gmail.com
 *
 * This file is part of the Swedish language package for phpBB 3.0.x.
-* Copyright (c) 2006-2012 Swedish translation team
+* Copyright (c) 2006-2010 Swedish translation team
 *
 * The Swedish language package for phpBB 3.0.x is free software; you can redistribute it and/or
 * modify it under the terms of the GNU General Public License as published by the Free Software
@@ -70,7 +70,7 @@ $lang = array_merge($lang, array(
 	'SYSTEM_TIMEZONE'            => 'Tidszon för gäster',
 	'SYSTEM_TIMEZONE_EXPLAIN'         => 'Den tidszon, som används för besökare som inte är inloggade (gäster och robotar). Inloggade användare anger sin tidszon i samband med registrering och kan ändra på den i sin kontrollpanel.',
 	'WARNINGS_EXPIRE'				=> 'Varningslängd',
-	'WARNINGS_EXPIRE_EXPLAIN'		=> 'Antal dagar som ska förflyta innan varningen automatiskt förfaller från användarens register.',
+	'WARNINGS_EXPIRE_EXPLAIN'		=> 'Antal dagar som ska förflyta innan varningen automatiskt förfaller från användarens register. Sätt till 0 för permanent varning.',
 ));
 
 // Board Features
@@ -195,7 +195,7 @@ $lang = array_merge($lang, array(
 	'MAX_POST_URLS'					=> 'Maximalt antal länkar per inlägg',
 	'MAX_POST_URLS_EXPLAIN'			=> 'Maximalt antal URL:er i ett inlägg. Sätt till 0 för obegränsat antal länkar.',
 	'MIN_CHAR_LIMIT'				=> 'Minsta antal tecken i ett inlägg eller meddelande.',
-	'MIN_CHAR_LIMIT_EXPLAIN'		=> 'Definierar minsta antal tecken som kan skrivas in i ett inlägg eller personligt meddelande',
+	'MIN_CHAR_LIMIT_EXPLAIN'		=> 'Definierar minsta antal tecken som kan skrivas in i ett inlägg eller personligt meddelande. Minsta tillåtna värde är 1.',
 	'POSTING'						=> 'Inlägg',
 	'POSTS_PER_PAGE'				=> 'Inlägg per sida',
 	'QUOTE_DEPTH_LIMIT'				=> 'Maximalt antal nästlade citat per inlägg',
@@ -281,7 +281,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_LIMIT_EXPLAIN'			=> 'Maximalt antal inlägg att visa i flödet.',
 
 	'ACP_FEED_OVERALL'					=> 'Aktivera globalt flöde',
-	'ACP_FEED_OVERALL_EXPLAIN'			=> 'Nya inlägg från hela forumet', // Aktiverar “Alla trådar”-flödet
+	'ACP_FEED_OVERALL_EXPLAIN'			=> 'Nya inlägg från hela forumet', //Aktiverar “Alla trådar”-flödet
 	'ACP_FEED_FORUM'					=> 'Aktiverar flöde per kategori',
 	'ACP_FEED_FORUM_EXPLAIN'			=> 'Nya inlägg i enstaka kategorier.',
 	'ACP_FEED_TOPIC'					=> 'Aktivera flöde per tråd',
@@ -299,7 +299,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'Aktiverar “Alla kategorier”-flödet och listar kategorierna',
 
 	'ACP_FEED_HTTP_AUTH'				=> 'Tillåt HTTP-autentisering',
- 	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'Aktiverar HTTP-autentisering, detta tillåter användare att ta emot innehåll, som är gömd för gäster genom att lägga till parametern <samp>auth=http</samp>  i URL-flödet. Notera att vissa PHP-inställningar kräver ändringar i filen .htaccess. Instruktioner hittas i den filen.',
+ 	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'Aktiverar HTTP-autentisering, detta tillåter användare att ta emot innehåll, som är gömt för gäster genom att lägga till parametern <samp>auth=http</samp>  i URL-flödet. Notera att vissa PHP-inställningar kräver ändringar i filen .htaccess. Instruktioner hittas i den filen.',
 	'ACP_FEED_ITEM_STATISTICS'			=> 'Inläggsstatistik',
 	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Visar individuell statistik i inläggsflödet. <br />(inläggsförfattare, tid, svar, antal gånger visat)',
 	'ACP_FEED_EXCLUDE_ID'				=> 'Exkludera dessa kategorier',
@@ -491,12 +491,12 @@ $lang = array_merge($lang, array(
 	'IP_LOGIN_LIMIT_USE_FORWARDED'	=> 'Begränsa inloggningsförsök med <var>X_FORWARDED_FOR</var> huvudet',
 	'IP_LOGIN_LIMIT_USE_FORWARDED_EXPLAIN'	=> 'Istället för att begränsa inloggningsförsök per IP-adress begränsas de med <var>X_FORWARDED_FOR</var> värden. <br /><em><strong>Varning:</strong> Slå på detta endast om du använder en proxy-server som tilldelar <var>X_FORWARDED_FOR</var> pålitliga värden.</em>',
 	'MAX_LOGIN_ATTEMPTS'			=> 'Maximalt antal inloggningsförsök per användarnamn',
-	'MAX_LOGIN_ATTEMPTS_EXPLAIN'	=> 'Antal misslyckade inloggningsförsök för ett användarkonto, före antispam-uppgiften utlöses. Ange 0 to prevent the anti-spambot task from being trigger for distinct user accounts.',
+	'MAX_LOGIN_ATTEMPTS_EXPLAIN'	=> 'Antal misslyckade inloggningsförsök för ett användarkonto, före antispam-uppgiften utlöses. Ange 0 för att inte utlösa denna åtgärd för riktiga användarkonton.',
 	
 	'NO_IP_VALIDATION'				=> 'Ingen',
 	'NO_REF_VALIDATION'           	=> 'Ingen',
 	'PASSWORD_TYPE'					=> 'Lösenordskomplexitet',
-	'PASSWORD_TYPE_EXPLAIN'			=> 'Avgör hur komplext ett lösenord måste göra när det väljs eller ändras, påföljande alternativ inkluderar de tidigare.',
+	'PASSWORD_TYPE_EXPLAIN'			=> 'Avgör hur komplext ett lösenord måste vara när det väljs eller ändras, påföljande alternativ inkluderar de tidigare.',
 	'PASS_TYPE_ALPHA'				=> 'Måste innehålla bokstäver och siffror',
 	'PASS_TYPE_ANY'					=> 'Inga krav',
 	'PASS_TYPE_CASE'				=> 'Måste innehålla både små och stora bokstäver',

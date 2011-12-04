@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* common [Swedish] (phpBB 3.0.9)
+* common [Swedish] (phpBB 3.0.10)
 *
 * @package language
 * @version $Id: common.php 36 2011-06-27 08:50:58Z Peetra.mammapappa $
@@ -181,6 +181,7 @@ $lang = array_merge($lang, array(
 	'EMPTY_MESSAGE_SUBJECT'				=> 'Du måste ange ett ämne för ditt meddelande.',
 	'ENABLED'							=> 'Aktiverat',
 	'ENCLOSURE'							=> 'Bilaga',
+	'ENTER_USERNAME'					=> 'Ange användarnamn',
 	'ERR_CHANGING_DIRECTORY'			=> 'Kunde inte byta katalog.',
 	'ERR_CONNECTING_SERVER'				=> 'Kunde inte ansluta till servern.',
 	'ERR_JAB_AUTH'						=> 'Kunde inte autentisera på Jabberserver.',
@@ -216,6 +217,7 @@ $lang = array_merge($lang, array(
 	'FORUM_RULES_LINK'		=> 'Klicka här för att visa kategorireglerna',
 	'FROM'					=> 'från',
 	'FSOCK_DISABLED'		=> 'Åtgärden kunde inte utföras eftersom att <var>fsockopen</var>-funktionerna har inaktiverats eller så hittades inte den valda servern.',
+	'FSOCK_TIMEOUT'			=> 'En timeout inträffade då forumet läste från nätverks-streamen.',
 	'FTP_FSOCK_HOST'				=> 'FTP-värd',
 	'FTP_FSOCK_HOST_EXPLAIN'		=> 'FTP-server använd för att ansluta din webbplats.',
 	'FTP_FSOCK_PASSWORD'			=> 'FTP-lösenord',
@@ -657,9 +659,13 @@ $lang = array_merge($lang, array(
 	'UNREAD_PMS'			=> '<strong>%d</strong> olästa meddelanden',
 	'UNREAD_POST'			=> 'Oläst inlägg',
 	'UNREAD_POSTS'			=> 'Olästa inlägg',
+	'UNWATCH_FORUM_CONFIRM'		=> 'Är du säker på att du vill ta bort bevakningen av denna kategori?',
+	'UNWATCH_FORUM_DETAILED'	=> 'Är du säker på att du vill ta bort bevakningen av kategori “%s”?',
+	'UNWATCH_TOPIC_CONFIRM'		=> 'Är du säker på att du vill ta bort bevakningen av tråden?',
+	'UNWATCH_TOPIC_DETAILED'	=> 'Är du säker på att du vill ta bort bevakningen av tråd “%s”?',
 	'UNWATCHED_FORUMS'			=> 'Du bevakar inte längre de valda kategorierna.',
 	'UNWATCHED_TOPICS'			=> 'Du bevakar inte längre de valda trådarna.',
-	'UNWATCHED_FORUMS_TOPICS'	=> 'Du bevakar inte längre de valda posterna.',
+	'UNWATCHED_FORUMS_TOPICS'	=> 'Du bevakar inte längre de valda trådarna i kategorin.',
 	'UPDATE'				=> 'Uppdatera',
 	'UPLOAD_IN_PROGRESS'	=> 'Uppladdningen pågår.',
 	'URL_REDIRECT'			=> 'Om din webbläsare inte stödjer META omdirigering, %sklicka här för att bli omdirigerad%s.',
@@ -704,6 +710,10 @@ $lang = array_merge($lang, array(
 
 	'WARNINGS'			=> 'Varningar',
 	'WARN_USER'			=> 'Varna användare',
+	'WATCH_FORUM_CONFIRM'	=> 'Är du säker på att du önskar bevaka denna katgegori?',
+	'WATCH_FORUM_DETAILED'	=> 'Are you sure you wish to subscribe to the forum “%s”?',
+	'WATCH_TOPIC_CONFIRM'	=> 'Are you sure you wish to subscribe to this topic?',
+	'WATCH_TOPIC_DETAILED'	=> 'Are you sure you wish to subscribe to the topic “%s”?',
 	'WELCOME_SUBJECT'	=> 'Välkommen till %s',
 	'WEBSITE'			=> 'Webbplats',
 	'WHOIS'				=> 'Whois',

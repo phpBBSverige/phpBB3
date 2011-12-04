@@ -1,7 +1,7 @@
 <?php
 /** 
 *
-* acp_forums [Swedish] (phpBB 3.0.9)
+* acp_forums [Swedish] (phpBB 3.0.10)
 *
 * @package language
 * @version $Id: forums.php 2 2010-06-24 01:12:10Z tumba25 $
@@ -90,8 +90,11 @@ $lang = array_merge($lang, array(
 	'ENABLE_TOPIC_ICONS'			=> 'Aktivera trådikoner',
 
 	'FORUM_ADMIN'						=> 'Kategoriadministration',
-	'FORUM_ADMIN_EXPLAIN'				=> 'I phpBB3 finns det inga huvudkategorier som i phpBB2, allt är kategoribaserat. Varje kategori kan ha ett obegränsat antal underkategorier och du kan bestämma om de ska kunna postas i eller inte (alltså om de ska bete sig som en gammal huvudkategori). Här kan du lägga till, redigera, ta bort, låsa och låsa upp individuella kategorier och ställa in andra inställningar. Om det behövs kan du också synkronisera en kategori här. <strong>Du måste kopiera eller ställa in lämpliga behörigheter för nyskapade kategorier för att de ska visas.</strong>',
+	'FORUM_ADMIN_EXPLAIN'				=> 'I phpBB3 är allt kategoribaserat. Varje kategori kan ha ett obegränsat antal underkategorier och du kan bestämma om de ska kunna postas i eller inte (alltså om de ska bete sig som en huvudkategori). Här kan du lägga till, redigera, ta bort, låsa och låsa upp individuella kategorier och ställa in andra inställningar. Om det behövs kan du också synkronisera en kategori här. <strong>Du måste kopiera eller ställa in lämpliga behörigheter för nyskapade kategorier för att de ska visas.</strong>',
+
 	'FORUM_AUTO_PRUNE'					=> 'Aktivera auto-rensning',
+	
+
 	'FORUM_AUTO_PRUNE_EXPLAIN'			=> 'Rensar kategorin på trådar, ställ in frekvens/åldersparametrar nedan.',
 	'FORUM_CREATED'						=> 'Kategorin skapades.',
 	'FORUM_DATA_NEGATIVE'				=> 'Rensningsparametrar kan inte vara negativa.',

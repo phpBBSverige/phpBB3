@@ -1,7 +1,7 @@
 <?php
 /** 
 *
-* help_faq [Swedish] (phpBB 3.0.9)
+* help_faq [Swedish] (phpBB 3.0.10)
 *
 * @package language
 * @version $Id: help_faq.php 2 2010-06-24 01:12:10Z tumba25 $

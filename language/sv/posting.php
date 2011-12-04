@@ -1,7 +1,7 @@
 <?php
 /** 
 *
-* posting [Swedish] (phpBB 3.0.9)
+* posting [Swedish] (phpBB 3.0.10)
 *
 * @package language
 * @version $Id: posting.php 2 2010-06-24 01:12:10Z tumba25 $

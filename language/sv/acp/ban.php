@@ -1,7 +1,7 @@
 <?php
 /** 
 *
-* acp_ban [Swedish] (phpBB 3.0.9)
+* acp_ban [Swedish] (phpBB 3.0.10)
 *
 * @package language
 * @version $Id: ban.php 2 2010-06-24 01:12:10Z tumba25 $
@@ -85,6 +85,9 @@ $lang = array_merge($lang, array(
 	'IP_UNBAN_EXPLAIN'			=> 'Du kan häva flera bannlysta (eller undantagna) e-postadresser på samma gång genom att använda den rätta kombinationen av mus och tangentbord för din dator och webbläsare. Undantagna IP-adresser är betonade.',
 
  	'LENGTH_BAN_INVALID'		=> 'Datumet måste vara i formatet <kbd>ÅÅÅÅ-MM-DD</kbd>.',
+	
+	'OPTIONS_BANNED'			=> 'Bannade',
+	'OPTIONS_EXCLUDED'			=> 'Undantagna',
  
 	'PERMANENT'		=> 'Permanent',
 	

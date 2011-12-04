@@ -1,7 +1,7 @@
 <?php
 /** 
 *
-* acp_attachments [Swedish] (phpBB 3.0.9)
+* acp_attachments [Swedish] (phpBB 3.0.10)
 *
 * @package language
 * @version $Id: attachments.php 14 2010-11-18 21:10:09Z Peetra.mammapappa $

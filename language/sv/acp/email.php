@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* acp_email [Swedish] (phpBB 3.0.9)
+* acp_email [Swedish] (phpBB 3.0.10)
 *
 * @package language
 * @version $Id: email.php 36 2011-06-27 08:50:58Z Peetra.mammapappa $

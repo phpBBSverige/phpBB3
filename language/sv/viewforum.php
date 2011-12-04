@@ -1,7 +1,7 @@
 <?php
 /** 
 *
-* viewforum [Swedish]  (phpBB 3.0.9)
+* viewforum [Swedish]  (phpBB 3.0.10)
 *
 * @package language
 * @version $Id: viewforum.php 25 2010-11-27 18:50:18Z Peetra.mammapappa $

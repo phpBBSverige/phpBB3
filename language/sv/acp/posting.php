@@ -1,7 +1,7 @@
 <?php
 /** 
 *
-* acp_posting [Swedish] (phpBB 3.0.9)
+* acp_posting [Swedish] (phpBB 3.0.10)
 *
 * @package language
 * @version $Id: posting.php 36 2011-06-27 08:50:58Z Peetra.mammapappa $

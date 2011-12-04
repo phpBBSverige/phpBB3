@@ -1,7 +1,7 @@
 <?php
 /** 
 *
-* acp_users [Swedish] (phpBB 3.0.9)
+* acp_users [Swedish] (phpBB 3.0.10)
 *
 * @package language
 * @version $Id: users.php 20 2010-11-27 17:06:46Z Peetra.mammapappa $
@@ -139,7 +139,7 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_NORMAL'				=> 'Användardefinierade grupper som användaren är medlem i',
 	'USER_GROUP_PENDING'			=> 'Grupper som användaren väntar på godkännande för',
 	'USER_GROUP_SPECIAL'			=> 'Fördefinierade grupper som användaren är medlem i',
-	'USER_LIFTED_NR'				=> 'Tog bort användarens status som my medlem.',
+	'USER_LIFTED_NR'				=> 'Tog bort användarens status som ny medlem.',
 	'USER_NO_ATTACHMENTS'			=> 'Det finns inga bifogade filer att visa.',
 	'USER_OUTBOX_EMPTIED'			=> 'Användarens utkorg har tömts.',
 	'USER_OUTBOX_EMPTY'				=> 'Användarens utkorg var redan tom.',

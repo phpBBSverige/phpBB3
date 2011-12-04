@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* acp common [Swedish] (phpBB 3.0.9)
+* acp common [Swedish] (phpBB 3.0.10)
 *
 * @package language
 * @version $Id: common.php 36 2011-06-27 08:50:58Z Peetra.mammapappa $
@@ -339,6 +339,16 @@ $lang = array_merge($lang, array(
 
 	'DATABASE_SERVER_INFO'	=> 'Databasserver',
 	'DATABASE_SIZE'			=> 'Databasstorlek',
+	
+	 // Enviroment configuration checks, mbstring related
+	'ERROR_MBSTRING_FUNC_OVERLOAD'					=> 'Överbelastningsfunktionen är inkorrekt konfigurerad.',
+	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> '<var>mbstring.func_overload</var> måste vara endera 0 eller 4. Du kan kontrollera det nuvarande värdet på sidan med <samp>PHP-information</samp>.',
+	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'Transparent teckenkodning är inkorrekt konfigurerad',
+	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> måste vara 0. Du kan kontrollera det nuvarande värdet på sidan med <samp>PHP-information</samp>.',
+	'ERROR_MBSTRING_HTTP_INPUT'						=> 'HTTP input teckenkonvertering är inkorrekt konfigurerad',
+	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> '<var>mbstring.http_input</var> måste vara <samp>pass</samp>. Du kan kontrollera det nuvarande värdet på sidan med <samp>PHP-information</samp>.',
+	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'HTTP output teckenkonvertering är inkorrekt konfigurerad',
+	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> måste vara <samp>pass</samp>. Du kan kontrollera det nuvarande värdet på sidan med <samp>PHP-information</samp>.',
 
 	'FILES_PER_DAY'		=> 'Bilagor per dag',
 	'FORUM_STATS'		=> 'Forumstatistik',

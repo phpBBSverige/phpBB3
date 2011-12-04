@@ -167,7 +167,7 @@ $lang = array_merge($lang, array(
 	'DLL_MYSQL'					=> 'MySQL',
 	'DLL_MYSQLI'				=> 'MySQL with MySQLi Extension',
 	'DLL_ORACLE'				=> 'Oracle',
-	'DLL_POSTGRES'				=> 'PostgreSQL 7.x/8.x',
+	'DLL_POSTGRES'				=> 'PostgreSQL',
 	'DLL_SQLITE'				=> 'SQLite',
 	'DLL_XML'					=> 'XML-stöd [ Jabber ]',
 	'DLL_ZLIB'					=> 'zlib komprimeringsstöd [ gz, .tar.gz, .zip ]',
@@ -206,8 +206,8 @@ $lang = array_merge($lang, array(
 		<p>Du har nu installerat phpBB %1$s. Var god, fortsätt genom att välja ett av följande alernativ:</p>
 		<h2>Konvertera ett existerande forum till phpBB3.</h2>
 		<p>phpBB Unified Convertor Framework stödjer konvertering av phpBB 2.0.x och andra forumsystem till phpBB3. Om du har ett existerande forum som du vill konvertera, <a href="%2$s">gå vidare till konverteraren</a>.</p>
-		<h2>Gå live med ditt phpBB3!</h2>
-		<p>Klicka på knappen nedan och du kommer att tas till ett formulär, i administrationspanelen för ditt nya forum, som tillåter dig att skicka statistik till phpBB. Vi uppskattar den hjälp du ger genom att fylla i dessa uppgifter. Ta dig sedan tid att utforska alla tillgängliga alternativ och inställningar. Kom ihåg att hjälp finns att få online i <a href="http://www.phpbb.com/support/documentation/3.0/">dokumentationen</a>, på det <a href="http://www.phpbb.com/community/viewforum.php?f=46">engelska supportforumet</a> och på det <a href="http://www.phpbb-se.com/forum/index.php">svenska supportforumet</a> Se även <a href="%3$s">README</a> för mer information.</p><p><strong>Ta nu bort, byt namn på eller flytta install-katalogen innan du använder ditt forum. Om denna katalog finns kvar kommer endast administrationspanelen att vara tillgänglig.</strong></p>',
+		<h2>Börja använda ditt phpBB3!</h2>
+		<p>Klicka på knappen nedan. Du kommer då att tas till ett formulär i administrationspanelen för ditt nya forum, formuläret tillåter dig att skicka statistik till phpBB. Vi uppskattar den hjälp du ger genom att fylla i dessa uppgifter. Ta dig sedan tid att utforska alla tillgängliga alternativ och inställningar. Kom ihåg att hjälp finns att få online i <a href="http://www.phpbb.com/support/documentation/3.0/">dokumentationen</a>, på det <a href="http://www.phpbb.com/community/viewforum.php?f=46">engelska supportforumet</a> och på det <a href="http://www.phpbb-se.com/forum/index.php">svenska supportforumet</a> Se även <a href="%3$s">README</a> för mer information.</p><p><strong>Ta nu bort, byt namn på eller flytta install-katalogen innan du använder ditt forum. Om denna katalog finns kvar kommer endast administrationspanelen att vara tillgänglig.</strong></p>',
 	'INSTALL_INTRO'				=> 'Välkommen till installationen',
 	'INSTALL_INTRO_BODY'		=> 'Med detta alternativ så kan du installera phpBB3 på sin server.</p><p>För att fortsätta så måste du ha dina databasinställningar till hands. Om du inte känner till dina databasinställningar, kontakta ditt webbhotell och fråga efter dem. Du kan inte fortsätta utan de. Du behöver:</p>
 	<ul>

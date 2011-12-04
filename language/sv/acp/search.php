@@ -1,7 +1,7 @@
 <?php
 /** 
 *
-* acp_search [Swedish] (phpBB 3.0.9)
+* acp_search [Swedish] (phpBB 3.0.10)
 *
 * @package language
 * @version $Id: search.php 17 2010-11-25 05:38:16Z Peetra.mammapappa $
