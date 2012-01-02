@@ -8,7 +8,7 @@
 * @copyright (c) 2006 phpBB Group, modified and translated by Swedish translation team
 * @source file is copyright (c) 2005 phpBB Group, modified and translated by Swedish translation team
 * @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU Public License version 2
-* @author (c) 2006-2008 Jonathan Gulbrandsen, 2008-2011 Petra Brandt
+* @author (c) 2006-2008 Jonathan Gulbrandsen, 2008-2012 Petra Brandt
 * @author (c) 2008-2010 Peetra
 * Translators: Swedish translation team, working at http://www.phpbb-se.com Contact team leader at peetra.mammapappa@gmail.com
 *
@@ -79,8 +79,9 @@ $help = array(
 	),
 	array(
 		0 => 'Jag har registrerat mig men kan inte logga in längre?!',
-		1 => 'Försök att hitta e-postmeddelandet du fick när du registrerade dig och kontrollera att du anger rätt användarnamn och lösenord. Det är möjligt att administratören har inaktiverat eller tagit bort ditt konto av någon anledning. Dessutom rensar många forum bort användare som inte postat på länge då och då för att minska storleken på databasen. Om så har skett, registrera dig igen och försök involvera dig mer i diskussionerna.'
+		1 => 'Det är möjligt att en administratör har raderat eller inaktiverat ditt användarkonto av någon orsak. Dessutom rensar många forum då och då bort användare som inte postat på länge för att minska storleken på databasen. Om så har skett, registrera dig igen och försök involvera dig mer i diskussionerna.'
 	),
+
 	array(
 		0 => 'Vad är COPPA?',
 		1 => 'COPPA, eller <em>Child Online Privacy and Protection Act of 1998</em>, är en lag i USA som kräver att webbplatser som samlar in information från barn under 13 år har skriftligt tillstånd från föräldrarna. Om du är osäker på om detta rör dig som försöker att registrera dig, eller om det rör webbplatsen du försöker registrera dig på, kontakta ett juridiskt ombud för hjälp. Observera att phpBB inte kan ge juridisk rådgivning och inte kan kontaktas angående något som helst juridiskt.',
@@ -285,15 +286,15 @@ $help = array(
 	),
 	array(
 		0 => '--',
-		1 => 'Vänner och ovänner'
+		1 => 'Vänner och ignorerade  användare'
 	),
 	array(
-		0 => 'Vad är vän- och ovännerlistan för något?',
-		1 => 'Du kan använda dessa listor för att organisera medlemmar på forumet. Medlemmar som läggs till i din vänskapslista kommer att visas i din kontrollpanel vilket låter dig snabbt och enkelt visa deras onlinestatus och skicka personliga meddelanden till dem. Om det stöds i mallen så kan inlägg från dessa användare också framhävas. Om du lägger till en användare till din lista över ovänner, så kommer alla inlägg de gör att döljas automatiskt.'
+		0 => 'Vad är vän- och ignorerade  användarelistan för något?',
+		1 => 'Du kan använda dessa listor för att organisera medlemmar på forumet. Medlemmar som läggs till i din vänskapslista kommer att visas i din kontrollpanel vilket låter dig snabbt och enkelt visa deras onlinestatus och skicka personliga meddelanden till dem. Om det stöds i mallen så kan inlägg från dessa användare också framhävas. Om du lägger till en användare till din lista över ignorerade  användare, så kommer alla inlägg de gör att döljas automatiskt.'
 	),
 	array(
-		0 => 'Hur lägger jag till / tar jag bort användare från min vän- eller ovännerslista?',
-		1 => 'Du kan lägga till användare till din lista på två sätt. På varje användares profilsida finns det en länk för att antingen lägga till dem till din vän- eller ovännerslista. Alternativt så kan du lägga till användare direkt genom att ange deras användarnamn i din kontrollpanel. Du kan också ta bort användare från din lista på samma sida.'
+		0 => 'Hur lägger jag till / tar jag bort användare från min vän- eller ignorerade  användareslista?',
+		1 => 'Du kan lägga till användare till din lista på två sätt. På varje användares profilsida finns det en länk för att antingen lägga till dem till din vän- eller ignorerade  användareslista. Alternativt så kan du lägga till användare direkt genom att ange deras användarnamn i din kontrollpanel. Du kan också ta bort användare från din lista på samma sida.'
 	),
 	array(
 		0 => '--',

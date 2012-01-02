@@ -8,7 +8,7 @@
 * @copyright (c) 2006 phpBB Group, modified and translated by Swedish translation team
 * @source file is copyright (c) 2005 phpBB Group, modified and translated by Swedish translation team
 * @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU Public License version 2
-* @author (c) 2009-2011 Peetra
+* @author (c) 2009-2012 Peetra
 * Translators: Swedish translation team, working at http://www.phpbb-se.com Contact translation team leader at peetra.mammapappa@gmail.com
 *
 * This file is part of the Swedish language package for phpBB 3.0.x.

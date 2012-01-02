@@ -8,7 +8,7 @@
 * @copyright (c) 2006 phpBB Group, modified and translated by Swedish translation team
 * @source file is copyright (c) 2005 phpBB Group, modified and translated by Swedish translation team
 * @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU Public License version 2
-* @author (c) 2006-2008 Jonathan Gulbrandsen, 2008-2011 Petra Brandt
+* @author (c) 2006-2008 Jonathan Gulbrandsen, 2008-2012 Petra Brandt
 * Translators: Swedish translation team, working at http://www.phpbb-se.com Contact team leader at peetra.mammapappa@gmail.com 
 *
 * This file is part of the Swedish language package for phpBB 3.0.x.
@@ -57,10 +57,11 @@ $lang = array_merge($lang, array(
 	'ALREADY_DELETED'			=> 'Detta meddelande har redan tagits bort.',
 	'ATTACH_QUOTA_REACHED'		=> 'Detta forums bilagekvot har uppnåtts, du kan inte ladda upp några filer.',
 	'ATTACH_SIG'				=> 'Infoga min signatur (signaturen kan ändras via kontrollpanelen)',
- 	'BBCODE_A_HELP'				=> 'Placera bilaga inom inlägget: [attachment=]filnamn.ext[/attachment]',
+
+	'BBCODE_A_HELP'				=> 'Placera bilaga inom inlägget: [attachment=]filnamn.ext[/attachment]',
 	'BBCODE_B_HELP'				=> 'Fet text: [b]text[/b]',
 	'BBCODE_C_HELP'				=> 'Kodvisning: [code]kod[/code]',
-	'BBCODE_E_HELP'				=> 'Lista: Lägg till listelement',
+	'BBCODE_D_HELP'				=> 'Flash: [flash=width,height]http://url[/flash]',
 	'BBCODE_F_HELP'				=> 'Textstorlek: [size=85]liten text[/size]',
 	'BBCODE_IS_OFF'				=> '%sBBCode%s är <em>AV</em>',
 	'BBCODE_IS_ON'				=> '%sBBCode%s är <em>PÅ</em>',
@@ -73,8 +74,9 @@ $lang = array_merge($lang, array(
 	'BBCODE_S_HELP'				=> 'Textfärg: [color=red]text[/color]  Tips: du kan också använda color=#FF0000',
 	'BBCODE_U_HELP'				=> 'Understruken text: [u]text[/u]',
 	'BBCODE_W_HELP'				=> 'Infoga länk: [url]http://url[/url] eller [url=http://url]Länktext[/url]',
-	'BBCODE_D_HELP'				=> 'Flash: [flash=width,height]http://url[/flash]',
+	'BBCODE_Y_HELP'				=> 'Lista: Lägg till listelement',
 	'BUMP_ERROR'				=> 'Du kan inte knuffa upp denna tråd ännu.',
+
 	'CANNOT_DELETE_REPLIED'		=> 'Du kan endast ta bort inlägg som inte har besvarats.',
 	'CANNOT_EDIT_POST_LOCKED'	=> 'Detta inlägg har låsts. Du kan inte längre redigera det.',
 	'CANNOT_EDIT_TIME'			=> 'Du kan inte längre redigera eller ta bort detta inlägg.',

@@ -4,15 +4,15 @@
 * ucp [Swedish] (phpBB 3.0.10)
 *
 * @package language
-* @version $Id: ucp.php 36 2011-06-27 08:50:58Z Peetra.mammapappa $
+* @version $Id: ucp.php 36 2012-06-27 08:50:58Z Peetra.mammapappa $
 * @copyright (c) 2006 phpBB Group, modified and translated by Swedish translation team
 * @source file is copyright (c) 2005 phpBB Group, modified and translated by Swedish translation team
 * @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU Public License version 2
-* @author (c) 2006-2008 Jonathan Gulbrandsen, 2008-2011 Petra Brandt
+* @author (c) 2006-2008 Jonathan Gulbrandsen, 2008-2012 Petra Brandt
 * Translators: Swedish translation team, working at http://www.phpbb-se.com contact translation team leader at peetra.mammapappa@gmail.com 
 *
 * This file is part of the Swedish language package for phpBB 3.0.x.
-* Copyright (c) 2006-2011 Swedish translation team
+* Copyright (c) 2006-2012 Swedish translation team
 *
 * The Swedish language package for phpBB 3.0.x is free software; you can redistribute it and/or
 * modify it under the terms of the GNU General Public License as published by the Free Software
@@ -82,7 +82,7 @@ $lang = array_merge($lang, array(
 	'ACTIVATION_EMAIL_SENT_ADMIN'   => 'Ett e-postmeddelande för aktivering av ditt konto har skickats till administratörerna.',
 	'ADD'							=> 'Lägg till',
 	'ADD_BCC'						=> 'Lägg till [Dold kopia]',
-	'ADD_FOES'						=> 'Lägg till nya ovänner',
+	'ADD_FOES'						=> 'Lägg till nya ignorerade  användare',
 	'ADD_FOES_EXPLAIN'				=> 'Du kan skriva in flera användarnamn, ett på varje rad.',
 	'ADD_FOLDER'					=> 'Lägg till mapp',
 	'ADD_FRIENDS'					=> 'Lägg till nya vänner',
@@ -150,6 +150,7 @@ $lang = array_merge($lang, array(
 	'CURRENT_IMAGE'				=> 'Nuvarande bild',
 	'CURRENT_PASSWORD'			=> 'Nuvarande lösenord',
 	'CURRENT_PASSWORD_EXPLAIN'	=> 'Du måste bekräfta med ditt nuvarande lösenord om du vill byta lösenord, e-postadress eller användarnamn.',
+	'CUR_PASSWORD_EMPTY'		=> 'Du angav inte ditt nuvarande lösenord.',
 	'CUR_PASSWORD_ERROR'		=> 'Lösenordet du angav är felaktigt.',
 	'CUSTOM_DATEFORMAT'			=> 'Eget…',
 
@@ -208,9 +209,9 @@ $lang = array_merge($lang, array(
 	'FIELD_INVALID_CHARS_SPACERS_ONLY'	=> 'Fältet “%s” innehåller felaktiga tecken, endast alfanumeriska tecken, mellanslag och -+_[] är tillåtna.',
 	'FIELD_INVALID_DATE'				=> 'Fältet “%s” innehåller ett felaktigt datum.',
 	'FIELD_INVALID_VALUE'				=> 'Fältet “%s” har ett felaktigt värde.',
-	'FOE_MESSAGE'				=> 'Meddelande från ovän',
-	'FOES_EXPLAIN'				=> 'Ovänner är användare som kommer att ignoreras automatiskt. Inlägg av dessa användare kommer inte att visas helt. Personliga meddelanden från ovänner tillåts fortfarande. Observera att du inte kan ignorera moderatorer eller administratörer.',
-	'FOES_UPDATED'				=> 'Din lista över ovänner uppdaterades.',
+	'FOE_MESSAGE'				=> 'Meddelande från en ignorerad användare',
+	'FOES_EXPLAIN'				=> 'Ovänner är användare som kommer att ignoreras automatiskt. Inlägg av dessa användare kommer inte att visas helt. Personliga meddelanden från ignorerade  användare tillåts fortfarande. Observera att du inte kan ignorera moderatorer eller administratörer.',
+	'FOES_UPDATED'				=> 'Din lista över ignorerade  användare uppdaterades.',
 	'FOLDER_ADDED'				=> 'Mappen lades till.',
 	'FOLDER_MESSAGE_STATUS'		=> '%1$d av %2$d meddelanden lagrade',
 	'FOLDER_NAME_EMPTY'			=> 'Du måste ange ett namn för denna mapp.',
@@ -279,9 +280,11 @@ $lang = array_merge($lang, array(
 	'MOVE_TO_FOLDER'				=> 'Flytta till mapp',
 	'MOVE_UP'						=> 'Flytta upp',
 
+	'NEW_EMAIL_CONFIRM_EMPTY'		=> 'Du angav inte en giltig adress för e-post.',
 	'NEW_EMAIL_ERROR'				=> 'E-postadresserna du angav stämmer inte överens.',
 	'NEW_FOLDER_NAME'				=> 'Nytt mappnamn',
 	'NEW_PASSWORD'					=> 'Nytt lösenord',
+	'NEW_PASSWORD_CONFIRM_EMPTY'	=> 'Du angav inte ett giltigt lösenord.',
 	'NEW_PASSWORD_ERROR'			=> 'Lösenorden du angav stämmer inte överens.',
 	'NOTIFY_METHOD'					=> 'Meddelningsmetod',
 	'NOTIFY_METHOD_BOTH'			=> 'Båda',
@@ -291,13 +294,13 @@ $lang = array_merge($lang, array(
 	'NOTIFY_ON_PM'					=> 'Meddela mig vid nya personliga meddelanden',
 	'NOT_ADDED_FRIENDS_ANONYMOUS'	=> 'Du kan inte lägga till den anonyma användaren till din lista över vänner.',
 	'NOT_ADDED_FRIENDS_BOTS'		=> 'Du kan inte lägga till sökrobotar till din lista över vänner.',
-	'NOT_ADDED_FRIENDS_FOES'		=> 'Du kan inte lägga till dina ovänner på din lista över vänner.',
+	'NOT_ADDED_FRIENDS_FOES'		=> 'Du kan inte lägga till dina ignorerade  användare på din lista över vänner.',
 	'NOT_ADDED_FRIENDS_SELF'		=> 'Du kan inte lägga till dig själv till din lista över vänner.',
-	'NOT_ADDED_FOES_MOD_ADMIN'		=> 'Du kan inte lägga till administratörer och moderatorer till din lista över ovänner.',
-	'NOT_ADDED_FOES_ANONYMOUS'		=> 'Du kan inte lägga till den anonyma användaren till din lista över ovänner.',
-	'NOT_ADDED_FOES_BOTS'			=> 'Du kan inte lägga till sökrobotar till din lista över ovänner.',
-	'NOT_ADDED_FOES_FRIENDS'		=> 'Du kan inte lägga till vänner till din lista över ovänner.',
-	'NOT_ADDED_FOES_SELF'			=> 'Du kan inte lägga till dig själv till din lista över ovänner.',
+	'NOT_ADDED_FOES_MOD_ADMIN'		=> 'Du kan inte lägga till administratörer och moderatorer till din lista över ignorerade  användare.',
+	'NOT_ADDED_FOES_ANONYMOUS'		=> 'Du kan inte lägga till den anonyma användaren till din lista över ignorerade  användare.',
+	'NOT_ADDED_FOES_BOTS'			=> 'Du kan inte lägga till sökrobotar till din lista över ignorerade  användare.',
+	'NOT_ADDED_FOES_FRIENDS'		=> 'Du kan inte lägga till vänner till din lista över ignorerade  användare.',
+	'NOT_ADDED_FOES_SELF'			=> 'Du kan inte lägga till dig själv till din lista över ignorerade  användare.',
 	'NOT_AGREE'						=> 'Jag godkänner inte detta avtal',
 	'NOT_ENOUGH_SPACE_FOLDER'		=> 'Destinationsmappen “%s” verkar vara full. Den valda åtgärden har inte utförts.',
 	'NOT_MOVED_MESSAGE'				=> 'Du har 1 personligt meddelande som hålls tillbaka på grund av full mapp.',
@@ -320,7 +323,7 @@ $lang = array_merge($lang, array(
 	'NO_BOOKMARKS_SELECTED'		=> 'Du valde inga bokmärken.',
 	'NO_EDIT_READ_MESSAGE'		=> 'Personligt meddelande kan inte redigeras eftersom det redan har lästs.',
 	'NO_EMAIL_USER'				=> 'Det finns ingen användare med den e-postadressen och användarnamnet.',
-	'NO_FOES'					=> 'Inga ovänner definierade',
+	'NO_FOES'					=> 'Inga ignorerade  användare definierade',
 	'NO_FRIENDS'				=> 'Inga vänner definierade',
 	'NO_FRIENDS_OFFLINE'		=> 'Inga vänner offline',
 	'NO_FRIENDS_ONLINE'			=> 'Inga vänner online',
@@ -461,8 +464,8 @@ $lang = array_merge($lang, array(
 	'UCP_RESEND'							=> 'Skicka e-postmeddelande om aktivering.',
 	'UCP_WELCOME'							=> 'Välkommen till kontrollpanelen. Härifrån kan du övervaka, visa, och uppdatera din profil, dina inställningar och dina alternativ och bevakade kategorier/trådar. Du kan också skicka meddelanden till andra användare. Försäkra dig om att du har läst eventuella meddelanden nedan innan du fortsätter.',
 	'UCP_YIM'								=> 'Yahoo Messenger',
-	'UCP_ZEBRA'								=> 'Vänner &amp; ovänner',
-	'UCP_ZEBRA_FOES'						=> 'Hantera ovänner',
+	'UCP_ZEBRA'								=> 'Vänner &amp; ignorerade  användare',
+	'UCP_ZEBRA_FOES'						=> 'Hantera ignorerade  användare',
 	'UCP_ZEBRA_FRIENDS'						=> 'Hantera vänner',
 	'UNDISCLOSED_RECIPIENT'			=> 'Hemlig mottagare',
 	'UNKNOWN_FOLDER'						=> 'Okänd mapp',
@@ -507,7 +510,7 @@ $lang = array_merge($lang, array(
 	'WRONG_ACTIVATION'			=> 'Aktiveringsnyckeln du angav matchar ingen i databasen.',
 
 	'YOUR_DETAILS'				=> 'Din aktivitet',
-	'YOUR_FOES'					=> 'Dina ovänner',
+	'YOUR_FOES'					=> 'Dina ignorerade  användare',
 	'YOUR_FOES_EXPLAIN'			=> 'För att ta bort användare från denna lista, markera de du vill ta bort och klicka på <em>Skicka</em>.',
 	'YOUR_FRIENDS'				=> 'Dina vänner',
 	'YOUR_FRIENDS_EXPLAIN'		=> 'För att ta bort användare från denna lista, markera de du vill ta bort och klicka på <em>Skicka</em>.',
@@ -536,7 +539,7 @@ $lang = array_merge($lang, array(
 		'BEGINS_WITH'	=> 'börjar med',
 		'ENDS_WITH'		=> 'slutar med',
 		'IS_FRIEND'		=> 'är vän',
-		'IS_FOE'		=> 'är ovän',
+		'IS_FOE'		=> 'är en ignorerad användare',
 		'IS_USER'		=> 'är användare',
 		'IS_GROUP'		=> 'är medlem i användargrupp',
 		'ANSWERED'		=> 'besvarat',

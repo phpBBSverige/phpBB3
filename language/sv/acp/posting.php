@@ -4,11 +4,11 @@
 * acp_posting [Swedish] (phpBB 3.0.10)
 *
 * @package language
-* @version $Id: posting.php 36 2011-06-27 08:50:58Z Peetra.mammapappa $
+* @version $Id: posting.php 36 2012-06-27 08:50:58Z Peetra.mammapappa $
 * @copyright (c) 2006 phpBB Group, modified and translated by Swedish translation team
 * @source file is copyright (c) 2005 phpBB Group, modified and translated by Swedish translation team
 * @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU Public License version 2
-* @author (c) 2006-2008 Jonathan Gulbrandsen, 2008-2011 Petra Brandt
+* @author (c) 2006-2008 Jonathan Gulbrandsen, 2008-2012 Petra Brandt
 * Translators: Swedish translation team, working at http://www.phpbb-se.com Contact team leader at peetra.mammapappa@gmail.com 
 *
 * This file is part of the Swedish language package for phpBB 3.0.x.

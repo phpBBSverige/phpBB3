@@ -4,11 +4,11 @@
 * common [Swedish] (phpBB 3.0.10)
 *
 * @package language
-* @version $Id: common.php 36 2011-06-27 08:50:58Z Peetra.mammapappa $
+* @version $Id: common.php 36 2012-06-27 08:50:58Z Peetra.mammapappa $
 * @copyright (c) 2006 phpBB Group, modified and translated by Swedish translation team
 * @source file is copyright (c) 2005 phpBB Group, modified and translated by Swedish translation team
 * @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU Public License version 2
-* @author (c) 2006-2008 Jonathan Gulbrandsen, 2008-2011 Petra Brandt
+* @author (c) 2006-2008 Jonathan Gulbrandsen, 2008-2012 Petra Brandt
 * @author (c) 2008-2010 Peetra
 * Translators: Swedish translation team, working at http://www.phpbb-se.com contact translation team leader at peetra.mammapappa@gmail.com Sinom helps a lot!
 *
@@ -56,9 +56,9 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 //
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'   => 'Swedish translation by <a href="http://www.phpbb-se.com/forum/viewtopic.php?t=6096">Peetra &amp; phpBB Sweden</a> &copy; 2006-2011',
+	'TRANSLATION_INFO'   => 'Swedish translation by <a href="http://www.phpbb-se.com/forum/viewtopic.php?t=6096">Peetra &amp; phpBB Sweden</a> &copy; 2006-2012',
 	'DIRECTION'			=> 'ltr',
-	'DATE_FORMAT'		=> '|d M Y|',// 01 Jan 2011 (with Relative days enabled)
+	'DATE_FORMAT'		=> '|d M Y|',// 01 Jan 2012 (with Relative days enabled)
 	'USER_LANG'			=> 'sv',
 	'1_DAY'			=> '1 dag',
 	'1_MONTH'		=> '1 månad',
@@ -711,9 +711,9 @@ $lang = array_merge($lang, array(
 	'WARNINGS'			=> 'Varningar',
 	'WARN_USER'			=> 'Varna användare',
 	'WATCH_FORUM_CONFIRM'	=> 'Är du säker på att du önskar bevaka denna katgegori?',
-	'WATCH_FORUM_DETAILED'	=> 'Are you sure you wish to subscribe to the forum “%s”?',
-	'WATCH_TOPIC_CONFIRM'	=> 'Are you sure you wish to subscribe to this topic?',
-	'WATCH_TOPIC_DETAILED'	=> 'Are you sure you wish to subscribe to the topic “%s”?',
+	'WATCH_FORUM_DETAILED'	=> 'Är du säker på att du önskar bevaka katgegorin “%s”?',
+	'WATCH_TOPIC_CONFIRM'	=> 'Är du säker på att du önskar bevaka denna tråd?',
+	'WATCH_TOPIC_DETAILED'	=> 'Är du säker på att du önskar bevaka tråden “%s”?',
 	'WELCOME_SUBJECT'	=> 'Välkommen till %s',
 	'WEBSITE'			=> 'Webbplats',
 	'WHOIS'				=> 'Whois',
