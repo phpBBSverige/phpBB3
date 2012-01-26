@@ -382,7 +382,7 @@ $lang = array_merge($lang, array(
 
 // Updater
 $lang = array_merge($lang, array(
-	'ALL_FILES_UP_TO_DATE'		=> 'Alla filer är av den senaste phpBB versionen. Du bör nu <a href="../ucp.php?mode=login">logga in på ditt forum</a> och kontrollera att allt fungerar som det ska. Glöm inte att ta bort, byta namn på eller flytta katalogen install! Var god och sänd oss uppdaterad information om din server och forumkonfigurationer via modulen <a href="../ucp.php?mode=login&amp;redirect=adm/index.php%3Fi=send_statistics%26mode=send_statistics">Sänd statitstik</a> i administrationspanelen.',
+	'ALL_FILES_UP_TO_DATE'		=> 'Alla filer är av den senaste phpBB versionen. Du bör nu <a href="../ucp.php?mode=login">logga in på ditt forum</a> och kontrollera att allt fungerar som det ska. Glöm inte att ta bort, byta namn på eller flytta katalogen install! Var god och sänd oss uppdaterad information om din server och forumkonfigurationer via modulen <a href="../ucp.php?mode=login&amp;redirect=adm/index.php%3Fi=send_statistics%26mode=send_statistics">Sänd statistik</a> i administrationspanelen.',
 	'ARCHIVE_FILE'				=> 'Källfil inom arkiv',
 
 	'BACK'				=> 'Tillbaka',
