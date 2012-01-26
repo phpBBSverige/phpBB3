@@ -243,7 +243,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR'					=> 'Installationsfel',
 	'INST_ERR_DB_CONNECT'		=> 'Kunde inte ansluta till databasen, se felmeddelande nedan.',
 	'INST_ERR_DB_FORUM_PATH'	=> 'Databasfilen du angivit finns inom ditt forums katalogträd. Du bör placera denna fil i en plats som inte är tillgänglig från webben.',
-	'INST_ERR_DB_INVALID_PREFIX'=> 'Prefixet du angav är felaktigt. Det bör börja med ett alfanumeriskt tecken (a-z) och får inte ha andra tecken i sig än bokstäver, nummer och understreck.',
+	'INST_ERR_DB_INVALID_PREFIX'=> 'Prefixet du angav är felaktigt. Det får bara innehåll alfanumeriskt tecken (a-z + A-Z + 0-9) och understreck (_).',
 	'INST_ERR_DB_NO_ERROR'		=> 'Inget felmeddelande gavs.',
 	'INST_ERR_DB_NO_MYSQLI'		=> 'Versionen av MySQL som är installerad på denna maskin är inte kompatibel med “MySQL with MySQLi Extension”-alternativet som du har valt. Försök med “MySQL”-alternativet istället.',
 	'INST_ERR_DB_NO_SQLITE'		=> 'Versionen av SQLite som du har installerad är för gammal, den måste uppgraderas till minst 2.8.2.',
@@ -363,7 +363,7 @@ $lang = array_merge($lang, array(
 
 	'TABLES_MISSING'			=> 'Kunde inte hitta dessa tabeller<br />» <strong>%s</strong>.',
 	'TABLE_PREFIX'				=> 'Prefix för tabeller i databasen',
-'TABLE_PREFIX_EXPLAIN'		=> 'Prefixet bör börja med ett alfanumeriskt tecken (a-z) och får inte ha andra tecken i sig än bokstäver, nummer och understreck.',
+	'TABLE_PREFIX_EXPLAIN'		=> 'Prefixet får bara innehåll alfanumeriskt tecken (a-z + A-Z + 0-9) och understreck (_). Det bör inte börja med ett understreck.',
 	'TABLE_PREFIX_SAME'		=> 'Tabellprefixet måste vara samma som mjukvaran du konverterar från använder.<br />» Angivet tabellprefix var %s.',
 	'TESTS_PASSED'				=> 'Testerna lyckades',
 	'TESTS_FAILED'				=> 'Testerna misslyckades',
