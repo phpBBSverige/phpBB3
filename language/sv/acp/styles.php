@@ -282,6 +282,7 @@ $lang = array_merge($lang, array(
 	'IMG_USER_ICON8'		=> 'Användardefinierad bild 8',
 	'IMG_USER_ICON9'		=> 'Användardefinierad bild 9',
 	'IMG_USER_ICON10'		=> 'Användardefinierad bild 10',
+	'INACTIVE_STYLES'		=> 'Inaktiva stilar',
 
 	'INCLUDE_DIMENSIONS'		=> 'Inkludera dimensioner',
 	'INCLUDE_IMAGESET'			=> 'Inkludera bildpaket',

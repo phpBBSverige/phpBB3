@@ -1,4 +1,4 @@
-<?php
+0<?php
 /**
 *
 * help_bbcode [Swedish] (phpBB 3.0.10)
@@ -39,7 +39,8 @@ if (!defined('IN_PHPBB'))
 // DEVELOPERS PLEASE NOTE
 //
 // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
-//
+§0
+§                                                                                                                                                      //
 // Placeholders can now contain order information, e.g. instead of
 // 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
 // translators to re-order the output of data while ensuring it remains correct

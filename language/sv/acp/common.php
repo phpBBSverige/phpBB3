@@ -418,7 +418,7 @@ $lang = array_merge($lang, array(
 	'INACTIVE_REASON_UNKNOWN'		=> 'Okänt',
 	'INACTIVE_USERS'				=> 'Inaktiverade användare',
 	'INACTIVE_USERS_EXPLAIN'		=> 'Detta är en lista över användare som har registrerat sig men vars konton är inaktiverade. Du kan om du vill aktivera, ta bort eller påminna (genom e-post) dessa användare.',
-	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Detta är en lista över de 10 senast registrerade användarna med inaktiverade konton. En fullständig lista finns tillgänglig via menyn eller via länken nedan där du om du vill kan aktivera, ta bort eller påminna (via e-post) dessa användare.',
+	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Detta är en lista över de 10 senast registrerade användarna med inaktiverade konton. konton är inaktiva endera pga att kontoaktivering är påslaget i inställningarna för användarregistrering och dessa konton ej ännu har aktiverats eller för att dessa konton har inaktiverats. En fullständig lista finns tillgänglig via länken nedan där du om du vill kan aktivera, ta bort eller påminna (genom att sända e-post) dessa användare.',
 
 	'NO_INACTIVE_USERS'	=> 'Inga inaktiverade användare',
 

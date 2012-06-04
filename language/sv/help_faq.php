@@ -358,7 +358,7 @@ $help = array(
 	),
 	array(
 		0 => 'Varför finns inte funktionen X?',
-		1 => 'Denna programvara har gjorts och licensierats av phpBB Group. Om du anser att en funktion bör läggas till så kan du besöka phpbb.com och se vad phpBB Group tycker. Posta inte funktionsönskningar på forumet på phpbb.com, phpBB använder SourceForge för att hantera nya funktioner. Läs igenom forumen för att se vad vår åsikt om en viss funktion kanske redan är och följ sedan instruktionerna som anges där.'
+		1 => 'Denna programvara har gjorts och licensierats av phpBB Group. Om du anser att en funktion bör läggas till eller vill rapportera en bugg, var vänlig och besök webbsidan phpBB <a href="http://area51.phpbb.com/">Area51</a>, där du kommer att hitta verktyg för att göra så.'
 	),
 	array(
 		0 => 'Vem ska jag kontakta med juridiska ärenden angående detta forum?',

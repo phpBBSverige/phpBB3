@@ -55,6 +55,7 @@ $lang = array_merge($lang, array(
 	'ADD_POLL'					=> 'Skapa omröstning',
 	'ADD_POLL_EXPLAIN'			=> 'Lämna dessa fält tomma om du inte vill ha en omröstning i din tråd.',
 	'ALREADY_DELETED'			=> 'Detta meddelande har redan tagits bort.',
+	'ATTACH_DISK_FULL'			=> 'Det finns inte tillräkligt ledigt diskutrymme for att posta denna bilaga.',
 	'ATTACH_QUOTA_REACHED'		=> 'Detta forums bilagekvot har uppnåtts, du kan inte ladda upp några filer.',
 	'ATTACH_SIG'				=> 'Infoga min signatur (signaturen kan ändras via kontrollpanelen)',
 

@@ -141,6 +141,7 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_SPECIAL'			=> 'Fördefinierade grupper som användaren är medlem i',
 	'USER_LIFTED_NR'				=> 'Tog bort användarens status som ny medlem.',
 	'USER_NO_ATTACHMENTS'			=> 'Det finns inga bifogade filer att visa.',
+	'USER_NO_POSTS_TO_DELETE'			=> 'Användaren har inga inlägg att behålla eller ta bort.',
 	'USER_OUTBOX_EMPTIED'			=> 'Användarens utkorg har tömts.',
 	'USER_OUTBOX_EMPTY'				=> 'Användarens utkorg var redan tom.',
 	'USER_OVERVIEW_UPDATED'			=> 'Användardetaljer uppdaterade.',

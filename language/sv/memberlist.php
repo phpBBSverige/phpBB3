@@ -126,7 +126,6 @@ $lang = array_merge($lang, array(
 
 	'POST_IP'				=> 'Postat från IP/domän',
 
-	'RANK'					=> 'Titel',
 	'REAL_NAME'				=> 'Mottagarens namn',
 	'RECIPIENT'				=> 'Mottagare',
 	'REMOVE_FOE'			=> 'Ta bort från ignorerade  användare',
