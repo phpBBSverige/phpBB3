@@ -70,7 +70,7 @@ $lang = array_merge($lang, array(
 	'BLANK_PREFIX_FOUND'			=> 'En analys av dina tabeller visar att du har en giltig installation som inte har något tabellprefix.',
 	'BOARD_NOT_INSTALLED'			=> 'Ingen installation hittades',
 	'BOARD_NOT_INSTALLED_EXPLAIN'	=> 'phpBB Unified Convertor Framework kräver en vanlig installation av phpBB3 för att fungera, <a href="%s">fortsätt genom att först installera phpBB3</a>.',
-	'BACKUP_NOTICE'					=> 'Gör en säkerheetskopia på ditt forum före du uppgraderar för att försäkra dig om att kunna återställa ditt forum ifall det uppstår problem under uppgraderingsprocessen.',
+	'BACKUP_NOTICE'					=> 'Gör en säkerhetskopia på ditt forum före du uppgraderar för att försäkra dig om att kunna återställa ditt forum ifall det uppstår problem under uppgraderingsprocessen.',
 	 
 	'CATEGORY'					=> 'Kategori',
 	'CACHE_STORE'				=> 'Cachetyp',
