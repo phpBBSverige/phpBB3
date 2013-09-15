@@ -56,7 +56,7 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 //
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'   => 'Swedish translation by <a href="http://www.phpbbse.com/viewtopic.php?t=6096">Peetra &amp; phpBB Sweden</a> &copy; 2006-2013',
+	'TRANSLATION_INFO'   => 'Swedish translation by <a href="http://www.phpbb.se/viewtopic.php?t=6096">Peetra &amp; phpBB Sweden</a> &copy; 2006-2013',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|d M Y|',// 01 Jan 2012 (with Relative days enabled)
 	'USER_LANG'			=> 'sv',
